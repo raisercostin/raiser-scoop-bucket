@@ -1,0 +1,20 @@
+{
+    "homepage": "https://sites.google.com/site/picasastartersite/",
+    "version": "2.0",
+    "description": "Picasa is a discontinued image organizer and image viewer for organizing and editing digital photos, plus an integrated photo-sharing website by Google",
+    "license": "Freeware",
+    "hash": "9188940457742451bfe100bf33df3ddf4ff0fa02ce2b242c599f0632a5a9cfbd",
+    "url": "http://localhost:8888/PicasaStarter V2.0.zip",
+    "bin": "PicasaStarter.exe",
+    "shortcuts": [
+        [
+            "PicasaStarter.exe",
+            "PicasaStarter"
+        ]
+    ],
+    "pre_install":[
+      "cmd /c mklink /H $dir\\PicasaStarterConfiguration.xml $persist_dir\\PicasaStarterConfiguration.xml",
+      "cmd /c mklink /H $dir\\PicasaStarterSettings.xml $persist_dir\\PicasaStarterSettings.xml"
+    ],
+    "notes": "PS_SettingsDir was configured to be 'picasastarter $persist_dir\\conf2'"
+}
