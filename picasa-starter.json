@@ -13,6 +13,8 @@
         ]
     ],
     "pre_install":[
+      "If(!(Test-Path \"$persist_dir\\PicasaStarterConfiguration.xml\")) { Set-Content \"$persist_dir\\PicasaStarterConfiguration.xml\" -Value $null }",
+      "If(!(Test-Path \"$persist_dir\\PicasaStarterSettings.xml\")) { Set-Content \"$persist_dir\\PicasaStarterSettings.xml\" -Value $null }",
       "cmd /c mklink /H $dir\\PicasaStarterConfiguration.xml $persist_dir\\PicasaStarterConfiguration.xml",
       "cmd /c mklink /H $dir\\PicasaStarterSettings.xml $persist_dir\\PicasaStarterSettings.xml"
     ],
