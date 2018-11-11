@@ -4,7 +4,7 @@
     "description": "Picasa is a discontinued image organizer and image viewer for organizing and editing digital photos, plus an integrated photo-sharing website by Google",
     "license": "Freeware",
     "hash": "9188940457742451bfe100bf33df3ddf4ff0fa02ce2b242c599f0632a5a9cfbd",
-    "url": "http://localhost:8888/PicasaStarter V2.0.zip",
+    "url": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/picasastarter/PicasaStarter%20V2.0.zip",
     "bin": "PicasaStarter.exe",
     "shortcuts": [
         [
