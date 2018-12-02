@@ -43,7 +43,7 @@ ls.ks
 @file:DependsOn("org.raisercostin:jedi-io_2.11:0.65")
 @file:MavenRepository("raiser-repo","http://dl.bintray.com/raisercostin/maven" )
 
-val location = org.raisercostin.jedi.Locations.file(args[0])
+val location = org.raisercostin.jedi.Locations.file(args.getOrNull(0)?:".")
 println("ls "+location.canonical())
 for (arg in location.list()) {
     println("${arg.name()}")
@@ -51,5 +51,5 @@ for (arg in location.list()) {
 ```
 
 ```
-kscript ls.ks
+kscript ls.ks .
 ```
