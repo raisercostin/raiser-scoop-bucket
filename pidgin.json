@@ -9,7 +9,8 @@
         "https://github.com/EionRobb/skype4pidgin/releases/download/1.5/libskypeweb.dll",
         "https://dl.voidium.net/pidgin/libfacebook.dll",
         "http://eion.robbmob.com/telegram/telegram-purple-1.3.0rev2.exe#/telegram-purple.7z",
-        "https://eion.robbmob.com/libslack.dll"
+        "https://eion.robbmob.com/libslack.dll",
+        "https://eion.robbmob.com/purple-matrix/purple-matrix-1.0.exe#/matrix.7z"
     ],
     "hash": [
         "sha1:58a83bfbf91cee8f6fc2025fab481c7a34d6f245",
@@ -17,7 +18,8 @@
         "sha256:709535267459ab43f32b77028850e60b5e0d87aa6396db692f12c8f548027242",
         "sha256:84a07a6e175b3e0a067e9905941975d00e0a0dc84a9081191ada832b50510c98",
         "sha256:df7565a4c435d68e20badd4bdc89e33aff36e65a4f161a7ff253dc962449f8b2",
-        "sha256:5d0d109b21ce9c29134cc160d46efdc83a03d86472704e63f7f384eaa124d893"
+        "sha256:5d0d109b21ce9c29134cc160d46efdc83a03d86472704e63f7f384eaa124d893",
+        "sha256:5083efd301cadc9dbb0d2e98406aeead108604699979ba5f6491c90f1c7fc52a"
     ],
     "env_set": {
         "PURPLEHOME": "$dir",
