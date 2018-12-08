@@ -59,6 +59,7 @@
       " -        - Host: slack.com",
       " -        - Advanced > API token: <generated token>",
       " -        - Username: unique, you could use <user>-<slack-workspace>",
-      " - [Skype](https://github.com/EionRobb/skype4pidgin/tree/master/skypeweb)"
+      " - [Skype](https://github.com/EionRobb/skype4pidgin/tree/master/skypeweb)",
+      " - Hangout - XMPP protocol, User: <user>@gmail.com, Password: Generate a one time password at https://myaccount.google.com/apppasswords"
    ]
 }
