@@ -4,10 +4,15 @@ If you don't already have Scoop, you need to install that first (using Powershel
 iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 ```
 
+## Installers for some of my windows apps
 ```
 scoop add bucket raisercostin https://github.com/raisercostin/raiser-scoop-bucket
 scoop install picasa
 scoop install picasa-starter
+scoop install riot
+scoop install pidgin
+scoop install yed
+scoop install kscript
 ```
 
 ## Upgrade stuff
