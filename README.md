@@ -16,11 +16,10 @@ See https://github.com/lukesampson/scoop/wiki/App-Manifest-Autoupdate#using-auto
 ```
 powershell
 
-cd D:\home\raiser-apps\buckets
 #to check for upgrades
-D:\home\raiser-apps\apps\scoop\current\bin\checkver.ps1 pidgin raiser-bucket
+D:\home\raiser-apps\apps\scoop\current\bin\checkver.ps1 pidgin D:\home\raiser-apps\buckets\raiser-bucket
 #to upgrade script
-D:\home\raiser-apps\apps\scoop\current\bin\checkver.ps1 pidgin raiser-bucket -u
+D:\home\raiser-apps\apps\scoop\current\bin\checkver.ps1 pidgin D:\home\raiser-apps\buckets\raiser-bucket -u
 #to test new installer
 scoop update pidgin
 ```
