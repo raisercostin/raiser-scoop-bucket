@@ -10,6 +10,21 @@ scoop install picasa
 scoop install picasa-starter
 ```
 
+## Upgrade stuff
+
+See https://github.com/lukesampson/scoop/wiki/App-Manifest-Autoupdate#using-autoupdate
+```
+powershell
+
+cd D:\home\raiser-apps\buckets
+#to check for upgrades
+D:\home\raiser-apps\apps\scoop\current\bin\checkver.ps1 pidgin raiser-bucket
+#to upgrade script
+D:\home\raiser-apps\apps\scoop\current\bin\checkver.ps1 pidgin raiser-bucket -u
+#to test new installer
+scoop update pidgin
+```
+
 # kscript integration
 
 To execute kotlin scripts in windows without bash
