@@ -1,16 +1,16 @@
 {
     "homepage": "https://riot.im/",
     "description": "Riot is a decentralised, encrypted chat & collaboration powered by matrix.org. It has group chat, integrations, voip & video calling, bridge networks, end to end encryption, file transfer. Lots of rooms already exist in Matrix, linked to existing networks (Slack, IRC, Gitter etc) or independent.",
-    "version": "10.17.3",
+    "version": "0.17.6",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://riot.im/download/desktop/install/win32/x64/Riot%20Setup%200.17.3.exe#/dl.7z",
-            "hash": "sha256:a7a51706332059fc61a2a67ff180634305cff379f669c45c3b4b32ef90f7115e"
+            "url": "https://riot.im/download/desktop/install/win32/x64/Riot%20Setup%200.17.6.exe#/dl.7z",
+            "hash": "941c922632c595ffabf5a364c14ede98979c7aa2f2e18323214322e9890dc6f6"
         },
         "32bit": {
-            "url": "https://riot.im/download/desktop/install/win32/ia32/Riot%20Setup%200.17.3-ia32.exe#/dl.7z",
-            "hash": "sha256:2616a821922a48490bca7c6edd1e3cbbe8e20b931ffc5ecfb1de12d784102caa"
+            "url": "https://riot.im/download/desktop/install/win32/ia32/Riot%20Setup%200.17.6-ia32.exe#/dl.7z",
+            "hash": "12e259d0c1e88f2030ff8bead34c6270c0a141a164ba6c2ce40421a838a4534b"
         }
     },
     "persist": [
