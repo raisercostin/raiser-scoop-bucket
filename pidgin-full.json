@@ -30,10 +30,10 @@
     "pre_install": "extract_7zip \"$dir\\`$PLUGINSDIR\\gtk.zip\" \"$dir\"",
     "post_install": [
         "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
-        "Copy-Item \"$dir\\libskypeweb.dll\" \"$dir\\.purple\\plugins\"",
-        "Copy-Item \"$dir\\libfacebook.dll\" \"$dir\\.purple\\plugins\"",
+        "Copy-Item \"$dir\\libskypeweb.dll\" \"$dir\\plugins\"",
+        "Copy-Item \"$dir\\libfacebook.dll\" \"$dir\\plugins\"",
+        "Copy-Item \"$dir\\libslack.dll\" \"$dir\\plugins\" -Recurse -Force",
         "Copy-Item \"$dir\\`$_3_\\*\" \"$dir\" -Recurse -Force",
-        "Copy-Item \"$dir\\libslack.dll\" \"$dir\\.purple\\plugins\" -Recurse -Force",
         "Remove-Item \"$dir\\`$_3_\" -Recurse"
     ],
     "shortcuts": [
