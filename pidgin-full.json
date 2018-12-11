@@ -17,10 +17,13 @@
     ],
     "post_install": [
         "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
-        "Copy-Item \"$dir\\libskypeweb.dll\" \"$dir\\plugins\"",
-        "Copy-Item \"$dir\\libslack.dll\" \"$dir\\plugins\" -Recurse -Force",
+        "if (!(Test-Path -path \"$dir\\plugins\")) {New-Item \"$dir\\plugins\" -Type Directory}",
+        "Move-Item \"$dir\\libskypeweb.dll\" \"$dir\\plugins\\\"",
+        "Move-Item \"$dir\\libslack.dll\" \"$dir\\plugins\\\"",
         "Copy-Item \"$dir\\`$_3_\\*\" \"$dir\" -Recurse -Force",
-        "Remove-Item \"$dir\\`$_3_\" -Recurse"
+        "Remove-Item \"$dir\\`$_3_\" -Recurse",
+        "$pidgin = \"$(appdir pidgin)\\current\"",
+        "xcopy \"$dir\\*\" \"$pidgin\\\" /Y /S"
     ],
     "notes": [
       "Bundled with",
