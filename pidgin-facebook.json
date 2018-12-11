@@ -1,7 +1,7 @@
 {
     "homepage": "https://github.com/dequis/purple-facebook/wiki/Installing-on-Windows",
     "description": "Pidgin facebook plugin",
-    "version": "2.11.0",
+    "version": "2018.Mar.22",
     "license": "GPL-2.0-or-later",
     "url": [
         "https://github.com/EionRobb/skype4pidgin/raw/master/skypeweb/libjson-glib-1.0.dll",
@@ -29,11 +29,9 @@
         ]
     },
     "checkver": {
-        "url": "https://sourceforge.net/projects/pidgin/files/Pidgin/",
-        "re": ">([\\d.]+)<"
-    },
-    "autoupdate": {
-        "url": "https://downloads.sourceforge.net/project/pidgin/Pidgin/$version/pidgin-$version-offline.exe#/dl.7z"
+        "url": "https://dl.voidium.net/pidgin",
+        "re": ">libfacebook\\.dll<\\/a>\\s*(?<day>\\d\\d)-(?<month>[^-]*)-(?<year>\\d{4})",
+        "replace": "${year}.${month}.${day}"
     },
     "depends": "pidgin"
 }
