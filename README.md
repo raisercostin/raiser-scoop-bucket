@@ -10,7 +10,7 @@ scoop add bucket raisercostin https://github.com/raisercostin/raiser-scoop-bucke
 scoop install picasa
 scoop install picasa-starter
 scoop install riot
-scoop install pidgin
+scoop install pidgin pidgin-facebook pidgin-telegram pidgin-slack pidgin-matrix  pidgin-skype
 scoop install yed
 scoop install kscript
 ```
