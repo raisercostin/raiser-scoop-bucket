@@ -6,7 +6,8 @@
     "hash": "sha1:e0ea010364ce4e846f2746372382af95ae45c7e7",
     "url": "https://www.resplendence.com/download/LatencyMon.exe",
     "bin": [
-        "LatMon.exe"
+        "LatMon.exe",
+        "IDLT.exe"
     ],
     "innosetup": false,
     "depends": "innounp",
@@ -18,6 +19,10 @@
         [
             "LatMon.exe",
             "Latency Monitor"
+        ],
+        [
+            "IDLT.exe",
+            "In Depth Latency Tests"
         ]
     ],
     "checkver": {
