@@ -6,7 +6,7 @@ iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 
 ## Installers for some of my windows apps
 ```
-scoop add bucket raisercostin https://github.com/raisercostin/raiser-scoop-bucket
+scoop bucket add raisercostin https://github.com/raisercostin/raiser-scoop-bucket
 scoop install picasa
 scoop install picasa-starter
 scoop install riot
