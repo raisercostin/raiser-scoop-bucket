@@ -34,7 +34,7 @@ scoop update pidgin
 To execute kotlin scripts in windows without bash
 
 ```
-scoop add bucket raisercostin https://github.com/raisercostin/raiser-scoop-bucket
+scoop bucket add raisercostin https://github.com/raisercostin/raiser-scoop-bucket
 scoop install kscript
 ```
 
