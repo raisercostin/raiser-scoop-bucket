@@ -42,8 +42,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://riot.im/desktop.html",
-        "re": ">v([\\d.]+)<"
+        "github":"https://github.com/vector-im/element-web"
     },
     "autoupdate": {
         "architecture": {
