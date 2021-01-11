@@ -17,5 +17,6 @@
   "autoupdate": {
     "url": "https://github.com/PredatH0r/ChanSort/releases/download/v$version/ChanSort_$version.zip",
     "extract_dir": "ChanSort_$version"
-  }
+  },
+  "depends": "vcredist2010"
 }
