@@ -21,5 +21,7 @@
         "url": "https://github.com/PredatH0r/ChanSort/releases/download/v$version/ChanSort_$version.zip",
         "extract_dir": "ChanSort_$version"
     },
-    "depends": "vcredist2010"
+    "suggest": {
+        "Microsoft Visual C++ Redistributables 2010": "extras/vcredist2010"
+    }
 }
