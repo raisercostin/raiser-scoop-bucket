@@ -1,22 +1,24 @@
 {
-  "homepage": "https://github.com/PredatH0r/ChanSort/wiki",
-  "description": "TV channel list editor for Samsung, LG, Panasonic, Sony, Hisense, Philips, ITT/Medion/Nabo/ok/PEAQ/Schaub-Lorenz/Silva-Schneider/Telefunken, Toshiba, VDR",
-  "version": "2020-05-02",
-  "license": "GPLv3",
-  "url": "https://github.com/PredatH0r/ChanSort/releases/download/v2020-05-02/ChanSort_2020-05-02.zip",
-  "hash": "860bfc3380046b5c28fa7ad54c439e2c54dad3b60990cf1820d1ad4494a636eb",
-  "extract_dir": "ChanSort_2020-05-02",
-  "bin" : "ChanSort.exe",
-  "checkver": "github",
-  "shortcuts": [
-    [
-      "ChanSort.exe",
-      "ChanSort"
-    ]
-  ],
-  "autoupdate": {
-    "url": "https://github.com/PredatH0r/ChanSort/releases/download/v$version/ChanSort_$version.zip",
-    "extract_dir": "ChanSort_$version"
-  },
-  "depends": "vcredist2010"
+    "homepage": "https://github.com/PredatH0r/ChanSort/wiki",
+    "description": "TV channel list editor for Samsung, LG, Panasonic, Sony, Hisense, Philips, ITT/Medion/Nabo/ok/PEAQ/Schaub-Lorenz/Silva-Schneider/Telefunken, Toshiba, VDR",
+    "version": "2020-05-02",
+    "license": "GPLv3",
+    "url": "https://github.com/PredatH0r/ChanSort/releases/download/v2020-05-02/ChanSort_2020-05-02.zip",
+    "hash": "860bfc3380046b5c28fa7ad54c439e2c54dad3b60990cf1820d1ad4494a636eb",
+    "extract_dir": "ChanSort_2020-05-02",
+    "bin" : "ChanSort.exe",
+    "checkver": {
+        "github": "https://github.com/PredatH0r/ChanSort/releases"
+    },
+    "shortcuts": [
+        [
+            "ChanSort.exe",
+            "ChanSort"
+        ]
+    ],
+    "autoupdate": {
+        "url": "https://github.com/PredatH0r/ChanSort/releases/download/v$version/ChanSort_$version.zip",
+        "extract_dir": "ChanSort_$version"
+    },
+    "depends": "vcredist2010"
 }
