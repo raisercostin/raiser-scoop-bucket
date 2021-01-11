@@ -8,7 +8,8 @@
     "extract_dir": "ChanSort_2020-05-02",
     "bin" : "ChanSort.exe",
     "checkver": {
-        "github": "https://github.com/PredatH0r/ChanSort"
+        "github": "https://github.com/PredatH0r/ChanSort",
+        "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d\\-.]+)"
     },
     "shortcuts": [
         [
