@@ -60,7 +60,7 @@ ls.ks
 ```
 #!/usr/bin/env kscript
 @file:DependsOn("org.raisercostin:jedi-io_2.11:0.65")
-@file:MavenRepository("raiser-repo","http://dl.bintray.com/raisercostin/maven" )
+@file:MavenRepository("raiser-repo","https://raw.githubusercontent.com/raisercostin/maven-repo/master" )
 
 val location = org.raisercostin.jedi.Locations.file(args.getOrNull(0)?:".")
 println("ls "+location.canonical())
