@@ -1,7 +1,6 @@
 {
   "homepage": "https://rhash.sourceforge.net",
-  
-  "description" : "RHash (Recursive Hasher) is a console utility for calculation and verification of magnet links and various message digests, including CRC32, CRC32C, MD4, MD5, SHA1, SHA256, SHA512, SHA3, AICH, ED2K, DC++ TTH, BitTorrent BTIH, Tiger, GOST R 34.11-94, GOST R 34.11-2012, RIPEMD-160, HAS-160, EDON-R, and Whirlpool. Sources: https://github.com/rhash/RHash",
+  "description": "RHash (Recursive Hasher) is a console utility for calculation and verification of magnet links and various message digests, including CRC32, CRC32C, MD4, MD5, SHA1, SHA256, SHA512, SHA3, AICH, ED2K, DC++ TTH, BitTorrent BTIH, Tiger, GOST R 34.11-94, GOST R 34.11-2012, RIPEMD-160, HAS-160, EDON-R, and Whirlpool. Sources: https://github.com/rhash/RHash",
   "version": "1.4.2",
   "license": "BSD Zero Clause License",
   "url": "https://downloads.sourceforge.net/project/rhash/rhash/1.4.2/rhash-1.4.2-win64.zip#/dl.7z",
@@ -13,6 +12,6 @@
   "extract_dir": "RHash-1.4.2-win64",
   "autoupdate": {
     "url": "https://downloads.sourceforge.net/project/rhash/rhash/$version/rhash-$version-win64.zip#/dl.7z",
-    "extract_dir": "RHash-$version-win64",
+    "extract_dir": "RHash-$version-win64"
   }
 }
