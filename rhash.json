@@ -4,15 +4,17 @@
     "version": "1.4.3",
     "license": "BSD Zero Clause License",
     "url": "https://downloads.sourceforge.net/project/rhash/rhash/1.4.3/rhash-1.4.3-win64.zip#/dl.7z",
+    "hash": "115b089d0caeca9339b7de4edcbde61711bd6b8af59a0f7dc44b1b43a02bc974",
     "bin": "rhash.exe",
     "architecture": "64bit",
     "extract_dir": "RHash-1.4.3-win64",
-    "checkver": {
+    "checkver": {      
         "url": "https://sourceforge.net/projects/rhash//files/rhash/",
         "re": ">(\\d+\\.\\d+\\.\\d+)<"
-    },
-    "autoupdate": {
+    },                 
+    "autoupdate": {    
         "url": "https://downloads.sourceforge.net/project/rhash/rhash/$version/rhash-$version-win64.zip#/dl.7z",
         "extract_dir": "RHash-$version-win64"
-    }
-}
+    }                  
+}                      
+                       
