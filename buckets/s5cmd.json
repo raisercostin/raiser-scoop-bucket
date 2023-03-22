@@ -1,0 +1,19 @@
+{
+    "version": "v2.0.0",
+    "description": "A 2-in-1 JAVA decompiler based on JD-CORE v0 and v1",
+    "homepage": "https://github.com/peak/s5cmd",
+    "license": "MIT License",
+    "url": "https://github.com/peak/s5cmd/releases/download/v2.0.0/s5cmd_2.0.0_Windows-64bit.zip",
+    "hash": "",
+    "bin": "s5cmd.exe",
+    "shortcuts": [
+        [
+            "s5cmd.exe",
+            "S5Cmd"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/peak/s5cmd/releases/download/$version/s5cmd_$version_Windows-64bit.zip"
+    }
+}
