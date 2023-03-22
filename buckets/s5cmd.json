@@ -12,8 +12,11 @@
             "S5Cmd"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/peak/s5cmd",
+        "regex": "\\/releases\\/tag\\/(?:v|V)?([a-zA-Z.0-9\\-]+)"
+    },
     "autoupdate": {
-        "url": "https://github.com/peak/s5cmd/releases/download/$version/s5cmd_$version_Windows-64bit.zip"
+        "url": "https://github.com/peak/s5cmd/releases/download/v$version/s5cmd_$version_Windows-64bit.zip"
     }
 }
