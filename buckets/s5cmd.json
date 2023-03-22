@@ -1,10 +1,10 @@
 {
     "version": "v2.0.0",
-    "description": "A 2-in-1 JAVA decompiler based on JD-CORE v0 and v1",
+    "description": "Parallel S3 and local filesystem execution tool.",
     "homepage": "https://github.com/peak/s5cmd",
     "license": "MIT License",
     "url": "https://github.com/peak/s5cmd/releases/download/v2.0.0/s5cmd_2.0.0_Windows-64bit.zip",
-    "hash": "",
+    "hash": "sha1:beddea855ea8458621291eb9921a9bc24837be31",
     "bin": "s5cmd.exe",
     "shortcuts": [
         [
