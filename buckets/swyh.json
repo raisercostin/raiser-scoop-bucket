@@ -1,0 +1,23 @@
+{
+    "version": "1.5.0-beta.29",
+    "description": "Stream What You Hear - Stream the sound from your PC to an UPnP/DLNA device Stream What You Hear (SWYH) is a Windows application to broadcast the sound of your computer (ie: “what you hear”) on an UPnP/DLNA device such as TVs, amps, network receivers, game consoles, etc... Github https://github.com/StreamWhatYouHear/SWYH",
+    "homepage": "http://www.streamwhatyouhear.com",
+    "license": "GNU General Public License v2.0",
+    "url": "https://github.com/StreamWhatYouHear/SWYH/releases/download/1.5.0-beta.29/SWYH_1.5.0-beta.29.exe#dl.exe",
+    "hash": "sha1:4cd8c8f523ee48f9467e3e5bb2ab105f7d8403f6",
+    "innosetup": true,
+    "depends": "innounp",
+    "shortcuts": [
+        [
+            "swyh.exe",
+            "Stream What You Hear"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/StreamWhatYouHear/SWYH",
+        "regex": "\\/releases\\/tag\\/(?:v|V)?([a-zA-Z.0-9\\-]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/StreamWhatYouHear/SWYH/releases/download/$version/SWYH_$version.exe"
+    }
+}
