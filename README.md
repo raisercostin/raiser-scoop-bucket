@@ -21,6 +21,17 @@ See https://github.com/lukesampson/scoop/wiki/App-Manifest-Autoupdate#using-auto
 ```
 powershell
 
+echo check upgradeable versions
+PS C:\Users\CostinGrigore\scoop\buckets\raisercostin> ..\..\apps\scoop\current\bin\checkver.ps1 -Dir .
+echo upgrade all
+PS C:\Users\CostinGrigore\scoop\buckets\raisercostin> ..\..\apps\scoop\current\bin\checkver.ps1 -Dir .
+```
+
+
+
+## Deprecated
+
+```
 #to check for upgrades
 D:\home\raiser-apps\apps\scoop\current\bin\checkver.ps1 pidgin D:\home\raiser-apps\buckets\raiser-bucket
 #to upgrade script
