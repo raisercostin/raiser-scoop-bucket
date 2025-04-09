@@ -1,0 +1,27 @@
+{
+  "version": "0",
+  "description": "Brendan Gregg's FlameGraph – a collection of scripts to generate flame graphs from performance data",
+  "homepage": "https://github.com/brendangregg/FlameGraph",
+  "license": "CC0-1.0",
+  "url": "https://github.com/brendangregg/FlameGraph/archive/41fee1f.zip#dl.7z",
+  "hash": "9994ea2dcbd6e2f33b2f2a2094b36c1cf7723207198a497f4811eb156e217d29",
+  "bin": [
+    "flamegraph.pl",
+    "stackcollapse.pl",
+    "stackcollapse-btrace.pl",
+    "stackcollapse-jstack.pl",
+    "stackcollapse-perf.pl",
+    "stackcollapse-unstripped.pl"
+  ],
+  "depends": [
+    "perl"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/brendangregg/FlameGraph/commits?per_page=1",
+    "regex": "\"sha\":\\s*\"([a-f0-9]{40})\""
+  },
+  "autoupdate": {
+    "url": "https://github.com/brendangregg/FlameGraph/archive/{version}.zip",
+    "extract_dir": "FlameGraph-{version}"
+  }
+}
