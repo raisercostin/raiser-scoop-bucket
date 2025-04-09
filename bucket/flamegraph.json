@@ -6,11 +6,15 @@
   "url": "https://github.com/brendangregg/FlameGraph/archive/41fee1f.zip",
   "hash": "9994ea2dcbd6e2f33b2f2a2094b36c1cf7723207198a497f4811eb156e217d29",
   "extract_dir": "FlameGraph-41fee1f99f9276008b7cd112fca19dc3ea84ac32",
+  "pre_install": [
+    "Write-Host 'Creating shims for FlameGraph ...'",
+    "Set-Content -Path \"$dir\\flamegraph.cmd\" -Value '@echo off\nperl \"%~dp0flamegraph.pl\" %*' -Encoding ascii",
+    "Set-Content -Path \"$dir\\stackcollapse-jstack.cmd\" -Value '@echo off\nperl \"%~dp0stackcollapse-jstack.pl\" %*' -Encoding ascii",
+    "Write-Host 'Shims created successfully.'"
+  ],
   "bin": [
-    "flamegraph.pl",
-    "stackcollapse.pl",
-    "stackcollapse-jstack.pl",
-    "stackcollapse-perf.pl"
+    "flamegraph.cmd",
+    "stackcollapse-jstack.cmd"
   ],
   "depends": [
     "perl"
