@@ -1,0 +1,55 @@
+{
+    "homepage": "https://developer.android.com/sdk",
+    "version": "2024.3.1.15",
+    "description": "The Android SDK provides API libraries and developer tools to build, test, and debug apps for Android.",
+    "license": "Apache-2.0",
+    "license_url": "https://developer.android.com/sdk/terms.html",
+    "architecture": {
+        "64bit": {
+            "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2024.3.1.15/android-studio-2024.3.1.15-windows.exe",
+            "hash": "20ee8651c90c27928e0c08140f2fe939c5d49c6821494c7b753533dcb4baf21c"
+        }
+    },
+    "checkver": {
+        "url": "https://developer.android.com/studio",
+        "regex": "android-studio-([\\d.]+)-windows\\.zip"
+    },
+    "autoupdate": {
+        "url": "https://redirector.gvt1.com/edgedl/android/studio/install/$version/android-studio-$version-windows.exe",
+        "hash": {
+            "url": "https://redirector.gvt1.com/edgedl/android/studio/install/$version/android-studio-$version-windows.exe.sha256"
+        }
+    },
+    "extract_dir": "android-sdk-windows",
+    "bin": [
+        "tools/android.bat",
+        "tools/ddms.bat",
+        "tools/draw9patch.bat",
+        "tools/emulator.exe",
+        "tools/emulator-arm.exe",
+        "tools/emulator-x86.exe",
+        "tools/hierarchyviewer.bat",
+        "tools/lint.bat",
+        "tools/mksdcard.exe",
+        "tools/monitor.bat",
+        "tools/monkeyrunner.bat",
+        "tools/traceview.bat",
+        "platform-tools/adb.exe",
+        "platform-tools/fastboot.exe"
+    ],
+    "persist": [
+        "platform-tools",
+        "build-tools",
+        "extras",
+        "licenses"
+    ],
+    "env_set": {
+        "ANDROID_HOME": "$dir"
+    },
+    "env_add_path": [
+        "platform-tools",
+        "tools",
+        "build-tools"
+    ],
+    "notes": "Run `android` to manage SDK components like `android-platform-tools` and `android-build-tools`. Installed extras/licenses/config will be persisted."
+}

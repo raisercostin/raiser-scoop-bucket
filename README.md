@@ -24,7 +24,7 @@ powershell
 echo check upgradeable versions
 PS C:\Users\CostinGrigore\scoop\buckets\raisercostin> ..\..\apps\scoop\current\bin\checkver.ps1 -Dir .
 echo upgrade all
-PS C:\Users\CostinGrigore\scoop\buckets\raisercostin> ..\..\apps\scoop\current\bin\checkver.ps1 -Dir .
+PS C:\Users\CostinGrigore\scoop\buckets\raisercostin> ..\..\apps\scoop\current\bin\checkver.ps1 -Dir . -u
 ```
 
 
