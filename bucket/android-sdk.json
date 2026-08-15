@@ -1,21 +1,21 @@
 {
     "homepage": "https://developer.android.com/sdk",
-    "version": "2024.3.1.15",
+    "version": "2026.1.3.8",
     "description": "The Android SDK provides API libraries and developer tools to build, test, and debug apps for Android.",
     "license": "Apache-2.0",
     "license_url": "https://developer.android.com/sdk/terms.html",
     "architecture": {
         "64bit": {
-            "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2024.3.1.15/android-studio-2024.3.1.15-windows.exe",
-            "hash": "20ee8651c90c27928e0c08140f2fe939c5d49c6821494c7b753533dcb4baf21c"
+            "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2026.1.3.8/android-studio-quail3-patch1-windows.exe",
+            "hash": "d08a374ba59a07c7b12b4a1f13f5282fe4d5f548eb8a2e59ba81aa1f8a7b8bc9"
         }
     },
     "checkver": {
         "url": "https://developer.android.com/studio",
-        "regex": "android-studio-([\\d.]+)-windows\\.zip"
+        "regex": "install/([\\d.]+)/(?<filename>android-studio-[^\"/]+-windows\\.exe)"
     },
     "autoupdate": {
-        "url": "https://redirector.gvt1.com/edgedl/android/studio/install/$version/android-studio-$version-windows.exe",
+        "url": "https://redirector.gvt1.com/edgedl/android/studio/install/$version/$matchFilename",
         "hash": {
             "url": "https://redirector.gvt1.com/edgedl/android/studio/install/$version/android-studio-$version-windows.exe.sha256"
         }
